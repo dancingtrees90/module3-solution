@@ -1,0 +1,97 @@
+body {
+	font-size: 15px;
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
+}
+p {
+	background-color: #808080;
+}
+h1 {
+	text-align: center;
+}
+.navbar-toggle{
+	float: right;
+	position: relative;
+	background-color: transparent;
+}
+
+#header-nav {
+	background-color: #808080;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+	text-align: left;
+}
+.navbar-brand h1{
+	font-family: sans-serif;
+	color: black;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a {
+	color: blue;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #e7e7e7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (max-width: 767px){
+
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5px;
+	}
+}
+@media (min-width: 768px) {
+	.navbar-toggle{
+		display: none;
+	}
+	
+#collapsable-nav a {
+	font-size: 1.2em;
+}
+
+#collapsable-nav a span {
+	font-size: 1em;
+	margin-right: 5px;
+}
+#xs-deliver {
+	margin-top: 5px;
+	font-size: .7em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+    
